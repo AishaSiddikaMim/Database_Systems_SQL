@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B27F4089-931F-1DB4-FA03-7F2AE9D72A77" name="Student">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:33:59 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="studentId" id="BE224DED-E13B-1993-48C6-041877449C18">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:34:09 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="studentName" id="69D3553F-6BD8-9BB6-FB78-83E65C5988F6">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:34:27 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="252D3FBF-E732-BC55-C652-9B5C0AA9AFEE" name="Student PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:34:23 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE224DED-E13B-1993-48C6-041877449C18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

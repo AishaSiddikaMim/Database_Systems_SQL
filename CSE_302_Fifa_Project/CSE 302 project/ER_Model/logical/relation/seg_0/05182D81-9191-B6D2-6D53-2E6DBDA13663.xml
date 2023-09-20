@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Leadership" directorySegmentName="seg_0" id="05182D81-9191-B6D2-6D53-2E6DBDA13663">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:53:41 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<sourcePk>9EB7F43F-3FFD-4DF9-4DAA-6C45BE0FE6D0</sourcePk>
+<targetPk>09AC0CE2-9E54-3D95-2758-7E2810DC58D3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01B187AD-125F-DB9C-999E-33A7A406D934</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9C2B4FFE-5015-547F-C464-58B918A55DB8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

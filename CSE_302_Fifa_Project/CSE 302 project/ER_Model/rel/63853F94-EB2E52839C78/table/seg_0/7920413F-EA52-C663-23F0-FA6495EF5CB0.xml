@@ -1,0 +1,272 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7920413F-EA52-C663-23F0-FA6495EF5CB0" name="Match">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B0E13DC7-B820-AA47-CC6F-F7D1DBA4E3F2</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Match_ID" id="44FD45BE-F942-990B-AEB3-45A76FC90677">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>222D8EC9-DF6D-CBF1-D236-77B5EAB801E4</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Match_Name" id="59B38E2E-4B97-8F9A-506B-02391316869F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>DD6E1A61-D136-696B-5546-25277955A705</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stage" id="F606370A-30C0-0434-531E-B22441F735F5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>135CB2BD-5A83-DB83-D8F4-903F5D22FB09</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Man_of_the_Match" id="3832A58A-DF4C-B58F-FD65-3C2CA78FDD5A">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>CFF1FD12-E859-06B0-DDD9-03BF868FD30E</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commentator_1" id="A3921925-7451-3998-AD4C-04044E39DB29">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>596EFE0D-16B8-3875-7186-642B9D5123E9</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Commentator_2" id="11A638CF-1C72-2CA6-CF58-48C238AD5D51">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>70D4B951-5C1E-D015-BD5C-1B18A9DD32A5</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Result_ID" id="BB2EC93F-11E6-6492-A78F-929D2775EEE4">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>D6C1BAAC-1818-B4E0-DE6F-DBA5E9DE6AFD</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C5CB714-F5B7-65ED-32D8-F3A01E1EE210" referredColumn="7C8403E9-3BB5-5610-FC53-5AAA931289E9"/>
+</associations>
+</Column>
+<Column name="Team_Name" id="6BEAEE5D-7989-12A2-3485-81EDEFBCD35D">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B431A328-4729-CE2F-FFF0-74EEF8BA602B</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A3DA13B-6949-64A4-5B51-07460CB11887" referredColumn="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6"/>
+</associations>
+</Column>
+<Column name="Team_Name1" id="1527187C-CDA6-BE78-653F-AFBFAC8C93F1">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>19786FC2-5A5A-6F7D-FDD7-38BE871999A4</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE4FA566-6B53-8417-C7D5-FC84C32E76E2" referredColumn="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6"/>
+</associations>
+</Column>
+<Column name="Statisstics_ID" id="147AA36E-7FA7-E570-FE77-60719C4019FF">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>F2395D72-E4F0-5E68-D743-51252683BAD3</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="566B8371-30C9-430E-59D0-08770791E641" referredColumn="24173D32-041D-FC6F-AD05-D763B7EC97AA"/>
+</associations>
+</Column>
+<Column name="Match_date" id="7FC33CEF-D5E9-F38B-9E96-42BB4B3C0C75">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>2E5BC19D-2340-2F4B-4AD3-D2063F51F00C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C79A14D4-1EEF-027E-A057-19498480D5DD" referredColumn="5B0E5EA0-7B41-816C-AB77-BDF67E3F150F"/>
+</associations>
+</Column>
+<Column name="Match_Time" id="5B5CDE2F-14C2-DAA4-88EA-EA95B14E6E9E">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>70812ADC-5961-1842-D93B-4E4FCDBFB618</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C79A14D4-1EEF-027E-A057-19498480D5DD" referredColumn="FC1D4E35-8688-552D-5200-FA39EC35C2EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3DB1672-D9C1-DFED-2C87-EF9EE39EF9A2" name="Match_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>EB6F8BB4-CF5A-0504-5605-5C69AD1C558E</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44FD45BE-F942-990B-AEB3-45A76FC90677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36A257E7-ACC7-B3A4-F2B5-F1B55E31582A" name="Match__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>95B1C297-47B8-68EC-1595-A549BADBFE6C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BB2EC93F-11E6-6492-A78F-929D2775EEE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA7522E7-0F7A-1835-42AB-14803D0C9570" name="Match__IDXv1">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C309836F-8E2A-B3F9-896C-294404E98F89</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="147AA36E-7FA7-E570-FE77-60719C4019FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD7975EF-EFF4-BF03-AD57-07CB4DD9E738" name="Match_Team_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>425B7633-0550-5C48-54DA-FE9C315189C1</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BEAEE5D-7989-12A2-3485-81EDEFBCD35D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC9EF78-7539-F412-8F4A-9BABB3297AB5" name="Match_Result_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>95B1C297-47B8-68EC-1595-A549BADBFE6C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB2EC93F-11E6-6492-A78F-929D2775EEE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F857C75C-B2C0-BF31-646A-AF9C0B8DE1B1" name="Match_Team_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>47358C25-852D-E37D-4A5E-FCF06DC20C64</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1527187C-CDA6-BE78-653F-AFBFAC8C93F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B18CA739-656B-3826-3074-EB7CE7ABFDC6" name="Match_Schedule_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>A126DDBB-2477-55E6-36F5-F42E0673E974</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC33CEF-D5E9-F38B-9E96-42BB4B3C0C75"/>
+<colUsage columnID="5B5CDE2F-14C2-DAA4-88EA-EA95B14E6E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A96691B-33EE-605A-9959-0D2A12F0D894" name="Match_Match_Statistics_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>C309836F-8E2A-B3F9-896C-294404E98F89</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147AA36E-7FA7-E570-FE77-60719C4019FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

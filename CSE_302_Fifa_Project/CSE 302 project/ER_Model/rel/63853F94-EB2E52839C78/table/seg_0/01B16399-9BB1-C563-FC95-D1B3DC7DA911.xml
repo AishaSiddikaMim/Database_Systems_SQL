@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01B16399-9BB1-C563-FC95-D1B3DC7DA911" name="Schedule">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>5E4719E0-E096-71D1-A864-47A2F4D82390</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Match_date" id="5B0E5EA0-7B41-816C-AB77-BDF67E3F150F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>FCA47D02-C9F1-CDC5-AC73-467CAD205259</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Match_Time" id="FC1D4E35-8688-552D-5200-FA39EC35C2EB">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>3CC42B0E-9233-E2C7-1F43-230B6E89A614</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stadium" id="3836ACE2-2157-E8D9-0892-04CCFC0D4DE2">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>0812F455-1E61-0BB8-332A-1EF92A74175F</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF66C5AC-50FA-AECD-F67C-574018E8DE6E" name="Schedule_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>18DC58AC-D958-1740-16DB-408A4A41244F</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0E5EA0-7B41-816C-AB77-BDF67E3F150F"/>
+<colUsage columnID="FC1D4E35-8688-552D-5200-FA39EC35C2EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

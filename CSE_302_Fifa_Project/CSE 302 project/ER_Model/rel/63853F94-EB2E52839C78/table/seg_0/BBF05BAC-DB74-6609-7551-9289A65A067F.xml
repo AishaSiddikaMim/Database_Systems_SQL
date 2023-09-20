@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBF05BAC-DB74-6609-7551-9289A65A067F" name="Goal">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>229B7AD1-EB30-DE25-9427-A75EFC388ACE</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Team_Name" id="91C80E0B-2E57-9165-5304-18D4DB7B27FF">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>E76C4948-5B0F-346C-D1BD-8C517FB75C35</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Goal" id="029F31EF-C78B-1C6B-9B6B-0154CB93ADA0">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>77448010-4550-D2D9-DE9B-ADBB93F3B362</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Corner_Goals" id="8657466D-F657-4A9E-5BF6-D08B8F78B35D">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>2D8A96D6-C38A-677B-300B-085D32F8FC8F</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Freekick" id="44E185B5-B804-2563-A0F6-3F5A63190E1C">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>64C6ACFF-0779-4447-C17D-0C3A18C1B707</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Penalty" id="9239BCAC-9535-F15B-13AD-09D3F634D9AB">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>00E26A6A-6E12-AF5F-E5C9-82AA8575E3C4</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Match_ID" id="0164C829-6998-B6E7-B568-93532413AB50">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9A0F8645-D837-6112-B2CD-E644BAD6E0E4</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="475C8F94-38F7-CF05-0234-8C1195280973" referredColumn="44FD45BE-F942-990B-AEB3-45A76FC90677"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECD1A132-F023-AB0F-A6E2-6527D5B49FB1" name="Goal_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>0DAAAD1E-B7A0-36E5-C39F-6EAC2B4F0798</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0164C829-6998-B6E7-B568-93532413AB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0328EC23-F688-1F74-E35D-C7B3506494FA" name="Goal_Match_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>62E93D07-ACBC-2F5B-E290-762D21AF024C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0164C829-6998-B6E7-B568-93532413AB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

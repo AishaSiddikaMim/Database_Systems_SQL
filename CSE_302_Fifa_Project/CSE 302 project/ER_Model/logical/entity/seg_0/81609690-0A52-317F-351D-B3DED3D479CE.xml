@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81609690-0A52-317F-351D-B3DED3D479CE" name="Result ">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:54:21 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Result_ID" id="BC6D90DB-AED8-A884-B3DE-9A16C6AB52FB">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:54:32 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_1" id="CB271DCB-86EC-DDC5-F4B3-C3A8A130A06C">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:55:04 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_2" id="B702B75B-10B2-B72D-1B2A-01E4858B5347">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:56:05 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_1_Goals" id="21381E1C-2638-B48C-8E53-ADC2686AF8D5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 16:56:52 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_2_Goals" id="32959B81-82E0-DD93-2B32-6867C38C175B">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 16:57:25 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Draw" id="BAFC67A2-7B0B-A5BB-75E6-34692738C469">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 06:09:02 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Match_ID" id="7747ECF4-E8D6-F593-F97A-8ED1C7AF85DE">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 06:12:00 UTC</createdTime>
+<generatorID>95B1C297-47B8-68EC-1595-A549BADBFE6C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>222D8EC9-DF6D-CBF1-D236-77B5EAB801E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4E7CE8C-417C-E3BF-CCAC-531CC6AFA31B" name="Result PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:55:03 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC6D90DB-AED8-A884-B3DE-9A16C6AB52FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

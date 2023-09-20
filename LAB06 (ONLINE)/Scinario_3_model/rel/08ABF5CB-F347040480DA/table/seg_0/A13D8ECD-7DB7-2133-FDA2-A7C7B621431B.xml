@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A13D8ECD-7DB7-2133-FDA2-A7C7B621431B" name="Authors">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>EC57CBD1-15A3-4097-0433-F5D75E13B6B8</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emailId" id="F612A3E3-AD6E-B095-DC92-7463233DDC8E">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>B03D7EED-F811-E444-AB1A-FED8EACEDEB4</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstName" id="4AAC5B4B-DBBD-8891-3F83-30A98B65B174">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>77ADFB22-9A9F-A460-3D31-95A119D407D7</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastName" id="A007D93E-D2D8-FAB1-3A9F-2FAA5F324D28">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>85264D46-01F2-D95C-732A-EC9D027CA661</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="designation" id="FD17A1D1-44D7-B608-3CD0-DF732E07B383">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>F603068C-5985-53ED-692F-D56364C55B4D</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id" id="5285D148-C2CA-CB2C-5419-DB3C268513DA">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>BA5F960D-AF16-0BEE-3C2D-259F71A90F6C</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ResearchPaper_Id" id="8CEDB34D-B961-C1F1-6C3D-C51345F0738D">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>04518D82-7AF5-12D0-4316-5DD589451B11</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3BDCEFF-A254-2083-FF32-0C55AC23285A" referredColumn="E5ED998E-FCE2-E170-B001-72686D8768EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1F3DFB2-20F2-3E46-7782-CC950411F5AD" name="Authors_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>B6D423AC-300B-2AFD-4956-D00C4FD9DF43</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F612A3E3-AD6E-B095-DC92-7463233DDC8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F276D120-7687-81D7-B54A-C9C876286DD2" name="Authors_ResearchPaper_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>C7637968-85ED-6055-0E0F-94BB6B5147B2</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEDB34D-B961-C1F1-6C3D-C51345F0738D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

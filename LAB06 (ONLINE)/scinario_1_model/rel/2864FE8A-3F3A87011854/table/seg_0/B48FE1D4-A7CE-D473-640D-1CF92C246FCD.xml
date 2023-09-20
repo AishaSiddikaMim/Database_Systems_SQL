@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B48FE1D4-A7CE-D473-640D-1CF92C246FCD" name="Enrollment">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_studentId" id="B0A5441A-79D5-16A4-7FA1-ACF9437A2D82">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00113994-464B-8FB2-9333-4A5E6F1BC158" referredColumn="37E60342-1032-D604-FCF7-7DF1850DD8C5"/>
+</associations>
+</Column>
+<Column name="Course_courseId" id="3408C129-38BC-E347-1AF6-F59872309EE8">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="145ECC9F-F72E-B63D-A5AE-75D14FC0E225" referredColumn="042611FD-B83A-565D-A313-9AB0572051E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB8563E1-BF68-C97E-ABE4-8EFD2EAA5C60" name="Enrollment_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A5441A-79D5-16A4-7FA1-ACF9437A2D82"/>
+<colUsage columnID="3408C129-38BC-E347-1AF6-F59872309EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46127EC7-F9EE-F98D-88F3-D6CEBC2B4CF5" name="Enrollment_Student_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>BA445912-5E07-12B0-366B-39854DAB73A1</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A5441A-79D5-16A4-7FA1-ACF9437A2D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2BF1980-F961-3D20-5616-11CC1760BA72" name="Enrollment_Course_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>BA445912-5E07-12B0-366B-39854DAB73A1</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3408C129-38BC-E347-1AF6-F59872309EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

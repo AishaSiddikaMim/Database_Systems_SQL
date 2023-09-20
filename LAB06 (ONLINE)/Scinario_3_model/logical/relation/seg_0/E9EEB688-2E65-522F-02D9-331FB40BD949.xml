@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reviews" directorySegmentName="seg_0" id="E9EEB688-2E65-522F-02D9-331FB40BD949">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:17:10 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<sourcePk>1B30957C-35C5-5D7F-2C61-B5F604B11478</sourcePk>
+<targetPk>AB3A93E8-130E-66F0-F120-36C4DE6B3309</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A868F547-855F-EE84-5941-F44F68F16CB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7BFFEDD-7C08-3F9E-1BA5-7FF4381C8344</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Authorization" directorySegmentName="seg_0" id="C7637968-85ED-6055-0E0F-94BB6B5147B2">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:15:26 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<sourcePk>1B30957C-35C5-5D7F-2C61-B5F604B11478</sourcePk>
+<targetPk>B6D423AC-300B-2AFD-4956-D00C4FD9DF43</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A868F547-855F-EE84-5941-F44F68F16CB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC57CBD1-15A3-4097-0433-F5D75E13B6B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

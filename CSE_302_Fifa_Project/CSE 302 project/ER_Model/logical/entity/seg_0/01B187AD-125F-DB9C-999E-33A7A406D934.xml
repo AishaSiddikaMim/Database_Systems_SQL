@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01B187AD-125F-DB9C-999E-33A7A406D934" name="Team">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:21:36 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Team_Name" id="BE56A939-E08A-2D2C-CB8E-30A50EC88C06">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:22:02 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_Manager" id="06A37714-3ED2-5825-0FA3-8744A231EEA8">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:25:06 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Group_Name" id="72189F99-9528-96E5-7352-43A3598A14EF">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 16:01:45 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="88A59314-7AA8-9290-3F86-65313D8A4F24">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:25:49 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Coach_ID" id="0A74F23B-1B1B-FDE8-26F2-BBC1AA55581F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:53:58 UTC</createdTime>
+<generatorID>05182D81-9191-B6D2-6D53-2E6DBDA13663</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>F287FA63-5355-942B-7EBF-F1923B079DBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Point_id" id="84BF0AAA-178F-EE60-5D8F-5CF3A90E2B84">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 06:25:21 UTC</createdTime>
+<generatorID>9FC26B96-B665-0218-F1E0-09E154D800C5</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>8DE67118-1301-1A20-F370-2B3D21B93100</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EB7F43F-3FFD-4DF9-4DAA-6C45BE0FE6D0" name="Team PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 04:24:10 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE56A939-E08A-2D2C-CB8E-30A50EC88C06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

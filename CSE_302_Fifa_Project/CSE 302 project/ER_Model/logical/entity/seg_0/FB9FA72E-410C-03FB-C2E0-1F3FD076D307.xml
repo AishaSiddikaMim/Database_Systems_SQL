@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB9FA72E-410C-03FB-C2E0-1F3FD076D307" name="Stadium">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:43:35 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Stadium_Name" id="9E02DD34-BAE5-0A7F-6C16-AF6171B00C87">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:44:07 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location" id="5C1D92B5-BDB8-6A8E-CD62-558E27BE0234">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:44:54 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacity" id="DE416BBA-2F60-261C-0572-5A2A896AC2F6">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:45:30 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Available_Tickets" id="39E8127C-510E-1919-733A-DCB8E225D102">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:46:47 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="379DB97E-ACDD-BC9A-5EF4-1CA8ED32AFB6" name="Stadium PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:50:23 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E02DD34-BAE5-0A7F-6C16-AF6171B00C87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

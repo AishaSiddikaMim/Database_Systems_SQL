@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E4719E0-E096-71D1-A864-47A2F4D82390" name="Schedule">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:39:40 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="63853F94-4769-76B8-A5A4-EB2E52839C78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Match_date" id="FCA47D02-C9F1-CDC5-AC73-467CAD205259">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:39:48 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="63853F94-4769-76B8-A5A4-EB2E52839C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Match_Time" id="3CC42B0E-9233-E2C7-1F43-230B6E89A614">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:40:39 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="63853F94-4769-76B8-A5A4-EB2E52839C78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stadium" id="0812F455-1E61-0BB8-332A-1EF92A74175F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:41:06 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="63853F94-4769-76B8-A5A4-EB2E52839C78" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18DC58AC-D958-1740-16DB-408A4A41244F" name="Schedule PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:40:16 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="63853F94-4769-76B8-A5A4-EB2E52839C78" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCA47D02-C9F1-CDC5-AC73-467CAD205259</attributeRef>
+<attributeRef>3CC42B0E-9233-E2C7-1F43-230B6E89A614</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

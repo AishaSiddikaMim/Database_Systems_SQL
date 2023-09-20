@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Score" directorySegmentName="seg_0" id="9FC26B96-B665-0218-F1E0-09E154D800C5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 06:25:21 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<sourcePk>D4CFC3FE-FAC6-701A-BE53-626C951AFD4B</sourcePk>
+<targetPk>9EB7F43F-3FFD-4DF9-4DAA-6C45BE0FE6D0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6BFD6A90-933B-C288-1495-6F453CDEC77C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>01B187AD-125F-DB9C-999E-33A7A406D934</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

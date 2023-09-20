@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E52D31B-4523-127F-3A57-034AAED5CC3C" name="Professor">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>32035BE3-232D-9592-3A7A-83573C27586A</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="professorInitial" id="A9961FAC-3F62-518A-7E59-C418D8D41CAD">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>A0CFCDA0-76A9-4619-7F37-D97FA0668353</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professorName" id="AD8C2587-A896-12DF-7E38-556B37AA5CD0">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>8F6F7533-1C14-59DD-EE65-06CD5C30950C</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7206AA15-9728-2C1C-B58C-140AA6FD9E25" name="Professor_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:40:48 UTC</createdTime>
+<generatorID>546EF441-F143-D9C9-EBB6-9FE57F85F501</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9961FAC-3F62-518A-7E59-C418D8D41CAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

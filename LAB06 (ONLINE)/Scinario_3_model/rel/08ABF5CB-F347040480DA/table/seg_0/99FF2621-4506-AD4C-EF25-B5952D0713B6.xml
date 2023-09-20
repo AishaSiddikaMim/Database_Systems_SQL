@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99FF2621-4506-AD4C-EF25-B5952D0713B6" name="Ratings">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>531F8F0A-ED67-2335-B7A8-BB12A53E9354</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="technicalMeritScale" id="53A1F22C-DFA5-0294-0790-A7973A3DECC8">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>30020638-5862-990B-E0F5-6C9D2311D435</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="readabilityScale" id="7E90CBF4-8262-4437-ED94-625C7EE87BE7">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>A1027AFD-3152-B623-4C09-8DB6F546E9CB</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="originalityScale" id="A3AF4656-2369-2FEB-AA4A-02A877A9AB03">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>46195D86-301C-A041-5F6C-02B9D2F5AFEE</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relevanceScale" id="F1741E79-7C8D-05AA-4165-2C7823400D99">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>BF851613-A040-C3C7-5038-39B39764D18C</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEF651DA-639D-7851-ED67-81D4D262FA12" name="Ratings_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>283CC2ED-3C9A-F041-9570-634822014917</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53A1F22C-DFA5-0294-0790-A7973A3DECC8"/>
+<colUsage columnID="7E90CBF4-8262-4437-ED94-625C7EE87BE7"/>
+<colUsage columnID="A3AF4656-2369-2FEB-AA4A-02A877A9AB03"/>
+<colUsage columnID="F1741E79-7C8D-05AA-4165-2C7823400D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

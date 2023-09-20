@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Scinario_3_model" id="A5822C40-D588-957F-7AF0-28ECD7AADA94" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:46:41 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A5822C40-D588-957F-7AF0-28ECD7AADA94</designId>
+</OSDM_Design>

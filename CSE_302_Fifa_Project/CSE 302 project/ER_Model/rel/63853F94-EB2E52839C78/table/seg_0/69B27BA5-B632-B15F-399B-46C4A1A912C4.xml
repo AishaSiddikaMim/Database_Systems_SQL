@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69B27BA5-B632-B15F-399B-46C4A1A912C4" name="Assistance">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Referee_ID" id="CC39F05B-2992-7DC9-D7DA-EDED443E0508">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3B99D89-7F68-3BA1-8618-4E22937DE7B3" referredColumn="DE6DE454-1ABD-B334-0D87-88C2CA21368F"/>
+</associations>
+</Column>
+<Column name="Match_ID" id="7FE6D017-492A-F9C4-661A-3609AC68A785">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0648BB2-7C59-66F7-184A-D178B0A89999" referredColumn="44FD45BE-F942-990B-AEB3-45A76FC90677"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A417F93-D33A-353C-AB7E-49AB49E67EAD" name="Assistance_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC39F05B-2992-7DC9-D7DA-EDED443E0508"/>
+<colUsage columnID="7FE6D017-492A-F9C4-661A-3609AC68A785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACA9C036-F1B8-0F46-6680-C4C08D9EB2FF" name="Assistance_Referee_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>F4928A1B-3B61-A5C2-A17E-0A5846648A02</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC39F05B-2992-7DC9-D7DA-EDED443E0508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C158FB7A-6597-CDE7-7F6C-98D2AF540CC9" name="Assistance_Match_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>F4928A1B-3B61-A5C2-A17E-0A5846648A02</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE6D017-492A-F9C4-661A-3609AC68A785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

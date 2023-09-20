@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0E13DC7-B820-AA47-CC6F-F7D1DBA4E3F2" name="Match">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:30:34 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Match_ID" id="222D8EC9-DF6D-CBF1-D236-77B5EAB801E4">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:30:42 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Match_Name" id="DD6E1A61-D136-696B-5546-25277955A705">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:30:42 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stage" id="135CB2BD-5A83-DB83-D8F4-903F5D22FB09">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:31:08 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Man_of_the_Match" id="CFF1FD12-E859-06B0-DDD9-03BF868FD30E">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:33:31 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commentator_1" id="596EFE0D-16B8-3875-7186-642B9D5123E9">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:51:30 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commentator_2" id="70D4B951-5C1E-D015-BD5C-1B18A9DD32A5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:52:32 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Result_ID" id="D6C1BAAC-1818-B4E0-DE6F-DBA5E9DE6AFD">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 06:11:24 UTC</createdTime>
+<generatorID>95B1C297-47B8-68EC-1595-A549BADBFE6C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>BC6D90DB-AED8-A884-B3DE-9A16C6AB52FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_Name" id="B431A328-4729-CE2F-FFF0-74EEF8BA602B">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 04:35:32 UTC</createdTime>
+<generatorID>425B7633-0550-5C48-54DA-FE9C315189C1</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>BE56A939-E08A-2D2C-CB8E-30A50EC88C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_Name1" id="19786FC2-5A5A-6F7D-FDD7-38BE871999A4">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 04:35:32 UTC</createdTime>
+<generatorID>47358C25-852D-E37D-4A5E-FCF06DC20C64</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>BE56A939-E08A-2D2C-CB8E-30A50EC88C06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Statisstics_ID" id="F2395D72-E4F0-5E68-D743-51252683BAD3">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 04:37:28 UTC</createdTime>
+<generatorID>C309836F-8E2A-B3F9-896C-294404E98F89</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>88A022D3-7661-5A23-E4FE-5C1B155B0686</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Match_date" id="2E5BC19D-2340-2F4B-4AD3-D2063F51F00C">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:11:06 UTC</createdTime>
+<generatorID>A126DDBB-2477-55E6-36F5-F42E0673E974</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>FCA47D02-C9F1-CDC5-AC73-467CAD205259</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Match_Time" id="70812ADC-5961-1842-D93B-4E4FCDBFB618">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:11:09 UTC</createdTime>
+<generatorID>A126DDBB-2477-55E6-36F5-F42E0673E974</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<referedAttribute>3CC42B0E-9233-E2C7-1F43-230B6E89A614</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB6F8BB4-CF5A-0504-5605-5C69AD1C558E" name="Match PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-16 05:31:06 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>222D8EC9-DF6D-CBF1-D236-77B5EAB801E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

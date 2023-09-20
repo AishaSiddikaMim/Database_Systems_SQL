@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="347E5FC7-A731-C0BF-FD18-AF1510E323CD" name="Player">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>BC042926-4B50-D1A2-770A-25954C6C19CF</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Player_ID" id="4CB4B675-0D81-FC87-FC69-B0EB492C0FCD">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>6729C0A8-59FB-1FD8-9CFE-652286F9C670</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_Name" id="0C7B91A6-6500-9E50-C916-07CFC840861D">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>5D5AC93E-E1DB-E26B-1757-6678A41964E2</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_Age" id="EE0E3CCF-ABF1-1902-BEB2-E8BE9509E81C">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>BD3A077C-B61E-AC96-650B-E627730C3F19</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_Jersey_no" id="137BF8EB-1523-7455-58D3-A09726211918">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>F94B68BE-95F0-1F28-68FA-AD8FB041FBBE</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_Position" id="2204D753-C606-E10E-7CCB-FBC1BF867685">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>BADDAB9B-2095-120D-063B-79A6EF33AC43</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Player_Salary" id="CF557291-2FBA-EBF1-731E-61348E2EA61F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>AC2AC7A1-9013-07B4-370C-510D4E4E4AF9</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Number_of_Goals" id="12B91C9F-BB61-CF24-C327-F6AC49A66075">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>C3410A71-8A7D-37B2-8BF0-A289460A1AFA</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nationality" id="3B64FF8E-98D3-8D53-B6C0-59B3316258F5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>C51CB256-3454-2EC1-11C8-96F566ED4CD1</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_Name" id="A29CECBB-1126-DA04-1432-F1FE3D3028B6">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B2088E71-E292-4D76-9647-F67E81029320</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75A343C7-B05D-DC79-56AC-6D77578339CF" referredColumn="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0EFD21A-06C9-DA50-05AE-4CAD22D4F28C" name="Player_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>6E9FD7E7-3524-8ACD-1F4A-9985DD694A55</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB4B675-0D81-FC87-FC69-B0EB492C0FCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A66DDA-39C3-5506-AB38-A805F24BB5DA" name="Player_Team_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>55A87DCC-6603-9654-670F-0C9BD6B8BE81</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A29CECBB-1126-DA04-1432-F1FE3D3028B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

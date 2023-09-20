@@ -1,0 +1,196 @@
+--------------TO CHECK THE CONSTRAINTS LATER
+
+SELECT CONSTRAINT NAME, TABLE_NAME FROM USER_CONS_COLUMNS;
+
+--------------HOW CAN YOU FIND THE NAME OF THE TABLES YOU CREATED
+
+SELECT TABLE_NAME FROM USER_TABLES;
+
+---------------DISPLAY TABLE
+DESC STUDENT;
+
+---------------CREATE A NEW ATTRIBUTE IN THE EXISTING STUDENT TABLE
+
+ALTER TABLE STUDENT ADD date_of_birth DATE;
+
+ALTER TABLE STUDENT ADD cgpa NUMBER;
+
+------------------UPDATING TABLE
+UPDATE STUDENT
+SET date_of_birth = '02-MAR-2001', cgpa = 4.0
+WHERE id = '2020-1-60-531';
+
+-----------------drop a column
+ALTER TABLE STUDENT DROP COLUMN CGPA;
+ALTER TABLE STUDENT DROP COLUMN date_of_birth;
+
+-----------to show the table-----------
+SELECT* from student; 
+
+----------change the datatype (EMPTY)
+
+UPDATE STUDENT
+set tot_cred = NULL;
+
+ALTER TABLE STUDENT MODIFY tot_cred VARCHAR2(16);
+
+ALTER TABLE STUDENT DROP CONSTRAINT ST_TOT_CRED;
+
+------------RENAMING AN ATTRIBUTE NAME
+
+ALTER TABLE STUDENT RENAME COLUMN tot_cred TO TOTAL_CREDIT;
+
+
+------------RENAMING A TABLE NAME
+
+ALTER TABLE STUDENT RENAME TO STUDENT_INFO;
+ALTER TABLE STUDENT_INFO RENAME TO STUDENT;
+
+------------ADDING A CONSTRAINT IN EXISTING TABLE 
+
+ALTER TABLE STUDENT ADD CONSTRAINT ST_CHK_DEPT CHECK (dept_name IN ('CSE', 'EEE'));
+
+INSERT INTO STUDENT VALUES ('2020-1-60-090', 'FUTURE', 'ECE', '0 CREDIT');
+
+
+------------------------------------------------------------------------ONLINE--------------------------------------------------------------------
+
+
+create table product (
+PRODUCT_ID      NUMBER,
+product_name    VARCHAR2(5),
+RODUCT_PRICE     NUMBER
+);
+
+ALTER TABLE STUDENT ADD PRODUCT_MGF_DATE DATE;
+
+
+ALTER TABLE STUDENT ADD CONSTRAINT PT_CHK_PRODUCT_MGF_DATE CHECK (PRODUCT_MGF_DATE);
+
+CHECK (Joining_date > to_date ('01/01/2000', 'mm/dd/yy'),
+--------------------------------------------------------------------------------------------------------------------------------------------LAB02
+
+QUERIES ON BANKING SQL
+
+--------------------------------FIND ACCOUNT NUMBER AND BRANCH NAME WHICH HAVBE BALANCE MORE THAN 500
+
+SELECT account_number, branch_name	
+FROM ACCOUNT a
+WHERE a.balance > 500;
+
+------------------------------------FIND ACCOUNT NUMBER AND BRANCH NAME WHICH HAVBE BALANCE in between 500 and 700
+
+SELECT account_number, branch_name	
+FROM ACCOUNT a
+WHERE a.balance >= 500 AND a.balance <= 700;
+
+
+SELECT account_number, branch_name	
+FROM ACCOUNT a
+WHERE balance BETWEEN 500 AND 700;
+
+------------------------------------FIND LOAN NUMBER AND BRANCH NAME WHICH HAVBE AMOUNT MORE THAN 100 and LESS THAN 500
+
+SELECT Loan_number, branch_name	
+FROM LOAN  
+WHERE AMOUNT BETWEEN 101 AND 499;
+
+------------------------------------FIND CUSTOMER NAME  WHO HAVE ACCOUNTS 
+
+SELECT customer_name
+FROM DEPOSITOR;
+
+------------------------------------FIND UNIQUE CUSTOMER NAME  WHO HAVE ACCOUNTS (DISTINCT REMOVES REPETATION)
+
+SELECT DISTINCT customer_name
+FROM DEPOSITOR;
+
+------------------------------------SET OPERATIONS 
+-------------------------------------------------------------------------SHOW UNIQUE CUSTOMER NAME WHO HAVE AN ACCOUNT OR LOAN OR BOTH
+
+SELECT DISTINCT customer_name
+FROM DEPOSITOR
+UNION
+SELECT DISTINCT customer_name
+FROM BORROWER;
+
+-------------------------------------------------------------------------SHOW UNIQUE CUSTOMER NAME WHO HAVE AN ACCOUNT AND LOAN 
+
+
+SELECT DISTINCT customer_name
+FROM DEPOSITOR
+INTERSECT
+SELECT DISTINCT customer_name
+FROM BORROWER;
+
+
+
+-------------------------------------------------------------------------SHOW UNIQUE CUSTOMER NAME WHO HAVE AN ACCOUNT BUT NO LOAN 
+
+SELECT DISTINCT customer_name
+FROM DEPOSITOR
+MINUS
+SELECT DISTINCT customer_name
+FROM BORROWER;
+
+
+-------------------------------------------------------------------------SHOW UNIQUE CUSTOMER NAME WHO HAVE NO ACCOUNT BUT LOAN 
+
+SELECT DISTINCT customer_name
+FROM BORROWER
+MINUS
+SELECT DISTINCT customer_name
+FROM DEPOSITOR;
+
+
+-------------------------------------------------------------------------SHOW  CUSTOMER NAME WHO HAVE NO ACCOUNT BUT LOAN 
+
+
+SELECT DISTINCT customer.customer_name, CUSTOMER_STREET, CUSTOMER_CITY
+FROM DEPOSITOR, customer
+WHERE DEPOSITOR.customer_name = customer.customer_name
+INTERSECT
+SELECT DISTINCT customer.customer_name, CUSTOMER_STREET, CUSTOMER_CITY
+FROM BORROWER, customer
+WHERE BORROWER.customer_name = customer.customer_name;
+
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

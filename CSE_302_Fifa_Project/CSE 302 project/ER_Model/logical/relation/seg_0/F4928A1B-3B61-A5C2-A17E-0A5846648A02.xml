@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Assistance" directorySegmentName="seg_0" id="F4928A1B-3B61-A5C2-A17E-0A5846648A02">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 04:15:20 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<engineerTo>
+<item key="6F91E616-418A-CEE4-042E-1FC21231612C" value="true"/>
+</engineerTo>
+<sourcePk>6CC36143-96AF-3033-4BCE-3F3706F78317</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>235D7642-1CBC-4D47-94E8-8306CCEFC27F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0E13DC7-B820-AA47-CC6F-F7D1DBA4E3F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

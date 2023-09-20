@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32035BE3-232D-9592-3A7A-83573C27586A" name="Professor">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:36:14 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="professorInitial" id="A0CFCDA0-76A9-4619-7F37-D97FA0668353">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:36:24 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professorName" id="8F6F7533-1C14-59DD-EE65-06CD5C30950C">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:36:43 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="546EF441-F143-D9C9-EBB6-9FE57F85F501" name="Professor PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:36:42 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0CFCDA0-76A9-4619-7F37-D97FA0668353</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DF4D1A5-14D4-56E4-7DEA-30B102CFEBB0" name="Point_Table">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>6BFD6A90-933B-C288-1495-6F453CDEC77C</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Point_id" id="86BDF97E-753C-C445-1F36-244FB67C61A1">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>8DE67118-1301-1A20-F370-2B3D21B93100</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tatal_Match" id="B5DFE1D4-6302-CB77-3796-E57CA5E4D06F">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>6A26045E-216A-B4CB-2A12-22105C0A554D</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Win" id="E4E363A2-AD68-CC0C-4AD9-2D15D69657EF">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>786155FF-0643-DD90-E03D-6D3112C30243</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_loss" id="61CC2A1D-77D2-9E7D-805A-22F195E3407B">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9E37142D-1CBD-2D3C-7425-804F2EF262F5</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Draws" id="7AACF1CD-E60E-9E05-AB9D-EE5D9F3326A9">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>DCD6F672-3516-3C1F-ADC5-A3577BCBFCA9</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Goal_For" id="EFAA8134-AA01-31D2-C75C-04FBF048B5F5">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>8BC7A8B2-E0C3-EDFB-6630-FD9AECEF883E</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Goal_Against" id="12A2E10B-BE65-2E35-01ED-4D9A13F851D2">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B8FC9204-BF92-10FC-E373-EA0B52E3468F</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Goal_Difference" id="19597876-C868-63F5-EF38-3E3BB440DEC8">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9BE33AF0-275C-0590-8DAF-104151F1EC53</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Points" id="0100D05C-3E19-4E54-672E-105BF333C8EE">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>0F1A7757-4C79-BFC9-B7AC-0ED581C663A7</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rank" id="981E4598-F233-2DEE-659F-1B56D09998AB">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>DF921AE9-CD47-CA42-E3E4-DFBD1DD66CCA</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_Name" id="A0A1C737-206F-FF1A-8844-62E9C0D2831D">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>30E84970-4C87-8417-763E-F8A6483A5146</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A172B07-C6F3-3FA1-29B3-1F8FBEB9FBFC" referredColumn="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6FFB149-9938-2BDB-F824-ECE2306C8342" name="Point_Table_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>D4CFC3FE-FAC6-701A-BE53-626C951AFD4B</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86BDF97E-753C-C445-1F36-244FB67C61A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21894036-F782-DAC7-3FB9-9EDE1965224C" name="Point_Table__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9FC26B96-B665-0218-F1E0-09E154D800C5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A0A1C737-206F-FF1A-8844-62E9C0D2831D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BF21E4E-4A46-B531-1A3E-8DACF6B7D092" name="Point_Table_Team_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9FC26B96-B665-0218-F1E0-09E154D800C5</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A1C737-206F-FF1A-8844-62E9C0D2831D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

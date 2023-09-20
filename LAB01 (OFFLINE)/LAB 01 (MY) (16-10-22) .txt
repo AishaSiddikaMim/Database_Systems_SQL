@@ -1,0 +1,62 @@
+--- creat new user
+
+CREATE USER CSE302_S1_F22 IDENTIFIED BY cse302;
+
+--- provide appropriate permission to a new user
+
+GRANT CONNECT, CREATE SESSION, CREATE TABLE, CREATE VIEW, CREATE SEQUENCE, CREATE ANY TRIGGER, UNLIMITED TABLESPACE TO CSE302_S1_F22;
+
+--- CREATE STUDENT TABLE
+
+CREATE TABLE STUDENT (
+id VARCHAR2 (13),
+name VARCHAR2 (10),
+dept_name VARCHAR2 (10),
+tot_CRED NUMBER (5, 2),
+CONSTRAINT ST_PK PRIMARY KEY (id),
+CONSTRAINT ST_TOT_CRED CHECK (tot_CRED >= 0 AND tot_CRED <=  140)
+);
+
+CREATE TABLE CourseAdvising (
+course_id VARCHAR2(6),
+sec_id NUMBER,
+semester VARCHAR2(10),
+year NUMBER,
+id VARCHAR2(13),
+grade VARCHAR2(2),
+CONSTRAINT CA_PK PRIMARY KEY (course_id, sec_id, semester, year, id),
+CONSTRAINT CA_FK FOREIGN KEY (id) REFERENCES Student,
+CONSTRAINT CA_year CHECK (year >= 2000)
+);
+
+INSERT INTO Student VALUES ('2018-2-60-063', 'Amy', '06/01/1997', 76.00);
+INSERT INTO Student VALUES ('2018-3-60-064', 'Bob', '03/11/1998', 50.50);
+INSERT INTO Student VALUES ('2018-1-60-065', 'Carl', '12/30/1999', 140.00);
+
+INSERT INTO CourseAdvising VALUES ('CSE345', 2, 'FALL', 2022, '2018-2-60-063', 'A+');
+INSERT INTO CourseAdvising VALUES ('CSE345', 3, 'SUMMER', 2022, '2018-3-60-064', 'B-');
+INSERT INTO CourseAdvising VALUES ('CSE345', 1, 'FALL', 2022, '2018-1-60-065', 'A-');
+
+SELECT * 
+FROM Student
+WHERE dept_name = 'CSE' AND tot_CRED >= 120;
+
+---JOINNNING TWO REALATIOns
+// join condition
+
+SELECT *
+FROM Student, CourseAdvising
+WHERE Student.id = CourseAdvising.id; 
+
+----
+SELECT Student.id, name, tot_cred
+FROM Student, CourseAdvising
+WHERE Student.id = CourseAdvising.id AND semester = 'FALL'AND YEAR =2022;
+
+SELECT DISTINCT Student.id, name, tot_cred
+FROM Student, CourseAdvising
+WHERE Student.id = CourseAdvising.id AND semester = 'FALL'AND YEAR =2022;
+
+
+
+

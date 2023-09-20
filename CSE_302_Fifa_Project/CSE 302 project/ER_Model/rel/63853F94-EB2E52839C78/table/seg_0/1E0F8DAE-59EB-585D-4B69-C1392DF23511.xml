@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E0F8DAE-59EB-585D-4B69-C1392DF23511" name="Team">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>01B187AD-125F-DB9C-999E-33A7A406D934</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Team_Name" id="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>BE56A939-E08A-2D2C-CB8E-30A50EC88C06</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_Manager" id="9A3F0DE4-77F5-7AE8-8DC3-CF42CFFA29B3">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>06A37714-3ED2-5825-0FA3-8744A231EEA8</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Group_Name" id="BDAECDF0-D908-A8DC-1CD6-42AC46184C66">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>72189F99-9528-96E5-7352-43A3598A14EF</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="90861C4A-39DD-57F5-58A1-8F4B35262504">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>88A59314-7AA8-9290-3F86-65313D8A4F24</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coach_ID" id="52E07058-16F4-3947-04E6-8E1FA780E142">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>0A74F23B-1B1B-FDE8-26F2-BBC1AA55581F</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8C43F7C-ECE9-8A80-14CE-27EB60C24683" referredColumn="AD7D459B-F7E3-D5E7-6E7D-00143CAED6C3"/>
+</associations>
+</Column>
+<Column name="Point_id" id="583E669E-9F83-1C7E-2C62-C5F4C481FAC1">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>84BF0AAA-178F-EE60-5D8F-5CF3A90E2B84</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B28042DB-2C5B-4ACE-CC8C-8751DF38ED0F" referredColumn="86BDF97E-753C-C445-1F36-244FB67C61A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43A06414-FE7D-EAF4-DE4E-C9B049CA3A52" name="Team_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9EB7F43F-3FFD-4DF9-4DAA-6C45BE0FE6D0</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD0CBB60-85EF-BD68-A1F5-FB2778D59ED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7320E1F3-E383-F1A3-2F2F-E121A52931AC" name="Team__IDX">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>05182D81-9191-B6D2-6D53-2E6DBDA13663</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="52E07058-16F4-3947-04E6-8E1FA780E142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3DE7BA1-0B24-E769-094A-996ADFBCE47B" name="Team__IDXv1">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9FC26B96-B665-0218-F1E0-09E154D800C5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="583E669E-9F83-1C7E-2C62-C5F4C481FAC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17CE35BE-CB62-2A72-8122-BD0FC4677F41" name="Team_Coach_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>05182D81-9191-B6D2-6D53-2E6DBDA13663</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52E07058-16F4-3947-04E6-8E1FA780E142"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EA7BDAC-9D52-E288-08C5-5D293185968A" name="Team_Point_Table_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>9FC26B96-B665-0218-F1E0-09E154D800C5</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583E669E-9F83-1C7E-2C62-C5F4C481FAC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

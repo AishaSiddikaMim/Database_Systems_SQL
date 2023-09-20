@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB6EDCE3-2341-A176-9B28-8D73D94F6E50" name="Course">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:35:00 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="courseId" id="1833A09C-B87A-1DE6-B6C1-B7A10C232232">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:35:11 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courseName" id="4F53AC69-3D3E-AD24-E098-021475CA65C2">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:35:35 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professorInitial" id="537B1E17-7B7F-DA3C-7D13-1C4CF9463046">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:41:08 UTC</createdTime>
+<generatorID>0CC748D6-0987-FF37-DFEE-4BC133B30FAA</generatorID>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<referedAttribute>A0CFCDA0-76A9-4619-7F37-D97FA0668353</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3990154-620D-8438-8A55-85ECACD4905B" name="Course PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:35:32 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1833A09C-B87A-1DE6-B6C1-B7A10C232232</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

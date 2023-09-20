@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="531F8F0A-ED67-2335-B7A8-BB12A53E9354" name="Ratings">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:03:49 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="technicalMeritScale" id="30020638-5862-990B-E0F5-6C9D2311D435">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:03:59 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="readabilityScale" id="A1027AFD-3152-B623-4C09-8DB6F546E9CB">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:04:43 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="originalityScale" id="46195D86-301C-A041-5F6C-02B9D2F5AFEE">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:06:21 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relevanceScale" id="BF851613-A040-C3C7-5038-39B39764D18C">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:06:51 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="283CC2ED-3C9A-F041-9570-634822014917" name="Ratings PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:06:13 UTC</createdTime>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08ABF5CB-D528-4B5C-25D4-F347040480DA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30020638-5862-990B-E0F5-6C9D2311D435</attributeRef>
+<attributeRef>A1027AFD-3152-B623-4C09-8DB6F546E9CB</attributeRef>
+<attributeRef>46195D86-301C-A041-5F6C-02B9D2F5AFEE</attributeRef>
+<attributeRef>BF851613-A040-C3C7-5038-39B39764D18C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

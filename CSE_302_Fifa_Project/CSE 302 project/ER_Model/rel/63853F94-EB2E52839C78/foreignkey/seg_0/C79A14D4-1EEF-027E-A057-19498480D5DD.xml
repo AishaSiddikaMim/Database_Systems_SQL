@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C79A14D4-1EEF-027E-A057-19498480D5DD" containerWithKeyObject="7920413F-EA52-C663-23F0-FA6495EF5CB0" localFKIndex="B18CA739-656B-3826-3074-EB7CE7ABFDC6" name="Match_Schedule_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>A126DDBB-2477-55E6-36F5-F42E0673E974</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<referredTableLongName>Schedule</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01B16399-9BB1-C563-FC95-D1B3DC7DA911</referredTableID>
+<keyObject>AF66C5AC-50FA-AECD-F67C-574018E8DE6E</keyObject>
+<referredKeyID>AF66C5AC-50FA-AECD-F67C-574018E8DE6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Match_date,Match_Time</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

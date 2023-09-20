@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A369834-802B-F01B-19F5-7B60923C345A" name="Event">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Match_date" id="DF1CFCBE-3766-8828-1336-A60D5AEAFE5E">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A8EB15D-2F13-773C-2B1E-F9B88BC224D4" referredColumn="5B0E5EA0-7B41-816C-AB77-BDF67E3F150F"/>
+</associations>
+</Column>
+<Column name="Match_Time" id="18C55818-731F-95FC-B199-68323ED954F2">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A8EB15D-2F13-773C-2B1E-F9B88BC224D4" referredColumn="FC1D4E35-8688-552D-5200-FA39EC35C2EB"/>
+</associations>
+</Column>
+<Column name="Stadium_Name" id="F02E61B3-5EAA-B8E5-0678-A9F78FD68E63">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB85B5FC-89E5-81E5-A0E0-F17061818F74" referredColumn="EE8C021C-9918-CAB2-53F9-A407DC4FD641"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8001D0E-43E5-F0C8-A584-93265AD62A52" name="Event_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<ownerDesignName>ER_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1CFCBE-3766-8828-1336-A60D5AEAFE5E"/>
+<colUsage columnID="18C55818-731F-95FC-B199-68323ED954F2"/>
+<colUsage columnID="F02E61B3-5EAA-B8E5-0678-A9F78FD68E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BCDC017-9E41-1A97-4223-DA6DAB40F197" name="Event_Schedule_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B9BDB87E-AA08-5FAB-8D51-9B8B894759E1</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1CFCBE-3766-8828-1336-A60D5AEAFE5E"/>
+<colUsage columnID="18C55818-731F-95FC-B199-68323ED954F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03805733-0448-C7C2-AC93-22C665B3459A" name="Event_Stadium_FK">
+<createdBy>User</createdBy>
+<createdTime>2022-12-17 17:14:43 UTC</createdTime>
+<generatorID>B9BDB87E-AA08-5FAB-8D51-9B8B894759E1</generatorID>
+<ownerDesignName>ER_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02E61B3-5EAA-B8E5-0678-A9F78FD68E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

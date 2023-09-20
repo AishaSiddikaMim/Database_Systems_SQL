@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Enrollment" directorySegmentName="seg_0" id="BA445912-5E07-12B0-366B-39854DAB73A1">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 06:37:50 UTC</createdTime>
+<ownerDesignName>scinario_1_model</ownerDesignName>
+<engineerTo>
+<item key="2864FE8A-658C-39DE-C322-3F3A87011854" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>252D3FBF-E732-BC55-C652-9B5C0AA9AFEE</sourcePk>
+<targetPk>C3990154-620D-8438-8A55-85ECACD4905B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B27F4089-931F-1DB4-FA03-7F2AE9D72A77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB6EDCE3-2341-A176-9B28-8D73D94F6E50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

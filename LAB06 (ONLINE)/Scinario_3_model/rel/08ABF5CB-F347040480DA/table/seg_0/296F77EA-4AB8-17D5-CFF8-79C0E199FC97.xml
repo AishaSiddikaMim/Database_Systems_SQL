@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="296F77EA-4AB8-17D5-CFF8-79C0E199FC97" name="ResearchPaper">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>A868F547-855F-EE84-5941-F44F68F16CB1</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="E5ED998E-FCE2-E170-B001-72686D8768EB">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>8BD63198-F2B5-2283-DD15-7940238336DA</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="4AB2D5CB-4E81-15D3-4FB9-BA54483996DC">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>FBBDBF5E-1171-763A-BB90-5DAAECFCF40A</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abstract" id="3ADD7D4F-006A-6648-FB07-7583BEA68D16">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>C700E5CB-42C8-47BC-341F-C949524474CE</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NameOfElectronicFile" id="8731E4E8-555C-D9E1-D4EF-FBBDEDE2D835">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>BB64EFBB-B166-FF2E-0C82-D0751E34988E</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A5B8135-E8B3-E2AA-5C36-38F3FB691BD2" name="ResearchPaper_PK">
+<createdBy>User</createdBy>
+<createdTime>2022-11-21 07:22:32 UTC</createdTime>
+<generatorID>1B30957C-35C5-5D7F-2C61-B5F604B11478</generatorID>
+<ownerDesignName>Scinario_3_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5ED998E-FCE2-E170-B001-72686D8768EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
